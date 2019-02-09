@@ -1,7 +1,21 @@
 body {
   background-color:#B6F9DE;
 }
-#headlines {
+@media screen and (max-width:800px){
+  #headlines {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #B6F9DE;
+  }
+}
+@media screen and (min-width:800px){
+  #headlines {
+    display: flex;
+    background-color: #B6F9DE;
+  }
+}
+
+#business {
   display: flex;
   background-color: #B6F9DE;
 }
@@ -16,6 +30,18 @@ body {
   .one {
     width: 300px;
     font-size: 20px;
+    background-color: #E4FEF4;
+  }
+}
+@media screen and (max-width:800px) {
+  #business {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width:800px) {
+  #business {
+    display: flex;
   }
 }
 @media screen and (max-width:800px){
@@ -43,12 +69,29 @@ body {
 @media screen and (max-width:800px){
   .one>img{
     height:90px;
-    width:140px;
+    width:150px;
   }
 }
 @media screen and (min-width:800px){
   .one>img{
     height:200px;
     width:280px;
+  }
+}
+#sports {
+  display: flex;
+  background-color: #B6F9DE;
+}
+@media screen and (max-width:800px){
+  #sports {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #B6F9DE;
+  }
+}
+@media screen and (min-width:800px){
+  #sports {
+    display: flex;
+    background-color: #B6F9DE;
   }
 }
